@@ -10,7 +10,8 @@
     },
     "dependencies": {
         "dotenv": "*",
-        "express": "*"
+        "express": "*",
+        "express-openid-connect": "*"
     },
     "devDependencies": {
         "nodemon": "*"
