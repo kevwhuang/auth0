@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "dotenv": "*",
-        "express": "* || 4.x"
+        "express": "*"
     },
     "devDependencies": {
         "nodemon": "*"
