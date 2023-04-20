@@ -3,7 +3,7 @@
     "main": "src/app.mjs",
     "scripts": {
         "deploy": "gcloud app deploy",
-        "nodemon": "nodemon src/app.mjs",
+        "dev": "nodemon src/app.mjs",
         "postdeploy": "gcloud app browse",
         "predeploy": "gcloud config set project fluid-catfish-379502",
         "start": "NODE_ENV=production node src/app.mjs"

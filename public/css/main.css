@@ -1,10 +1,15 @@
-a,
-a:visited {
+a {
+    background: #000;
+    border-radius: 6px;
     color: #ddd;
     margin: 12px;
+    padding: 6px;
 }
 
-a:hover,
+a:hover {
+    color: peru;
+}
+
 a:active {
     color: tomato;
 }
@@ -13,5 +18,9 @@ body {
     background: #222;
     color: #ddd;
     font-size: 24px;
+    margin: 12px;
+}
+
+h1 {
     margin: 12px;
 }
