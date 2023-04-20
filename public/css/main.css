@@ -6,6 +6,10 @@ a {
     padding: 6px;
 }
 
+a:visited {
+    color: #ddd;
+}
+
 a:hover {
     color: peru;
 }
