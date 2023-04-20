@@ -11,10 +11,10 @@ const app = express();
 const configAuth = {
     auth0Logout: true,
     authRequired: false,
-    baseURL: 'http://localhost:8888',
-    clientID: 'QTACLfhEzzDoVHV0kGp1zCq5HoLYGj5t',
-    issuerBaseURL: 'https://dev-2z360f0qw766a1fp.us.auth0.com',
-    secret: process.env.SECRET_KEY,
+    baseURL: `http://localhost:${process.env.PORT}`,
+    clientID: process.env.AUTH0_CLIENT_ID,
+    issuerBaseURL: process.env.AUTH0_DOMAIN,
+    secret: process.env.AUTH0_CLIENT_SECRET,
 };
 
 app.listen(PORT);

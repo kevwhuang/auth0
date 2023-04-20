@@ -1,9 +1,17 @@
-body {
-    background: #222;
+a,
+a:visited {
     color: #ddd;
     margin: 12px;
 }
 
-h1 {
+a:hover,
+a:active {
+    color: tomato;
+}
+
+body {
+    background: #222;
+    color: #ddd;
     font-size: 24px;
+    margin: 12px;
 }
