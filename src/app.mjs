@@ -11,7 +11,7 @@ const app = express();
 const configAuth = {
     auth0Logout: true,
     authRequired: false,
-    baseURL: `http://localhost:${process.env.PORT}`,
+    baseURL: process.env.AUTH0_BASE_URL || `http://localhost:${process.env.PORT}`,
     clientID: process.env.AUTH0_CLIENT_ID,
     issuerBaseURL: process.env.AUTH0_DOMAIN,
     secret: process.env.AUTH0_CLIENT_SECRET,
